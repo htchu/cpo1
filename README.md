@@ -2,7 +2,7 @@
 
 A bilingual (English / 繁體中文) web application for the Course Peer Observation program, built with Next.js and deployed on Vercel.
 
-**Live site:** https://emi-cs.aiplab.tw
+**Live site:** https://emi2026.aiplab.tw
 
 ## Features
 
@@ -23,4 +23,4 @@ Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
 ## Deployment
 
-Deployed on [Vercel](https://vercel.com) with custom domain `emi-cs.aiplab.tw`.
+Deployed on [Vercel](https://vercel.com) with custom domain `emi2026.aiplab.tw`.
