@@ -1,0 +1,201 @@
+{
+  "site": {
+    "title": "課程同儕觀課",
+    "subtitle": "計算機科學基礎",
+    "description": "計算機科學基礎課程的協作同儕觀課計畫，透過建設性回饋和共同學習促進教學卓越。"
+  },
+  "nav": {
+    "home": "首頁",
+    "about": "關於計畫",
+    "schedule": "觀課時程",
+    "resources": "教學資源",
+    "feedback": "觀課回饋"
+  },
+  "home": {
+    "hero_title": "課程同儕觀課",
+    "hero_subtitle": "計算機科學基礎",
+    "hero_description": "透過協作觀課、反思與專業發展，提升計算機科學教育的教學品質。",
+    "cta_schedule": "查看時程",
+    "cta_about": "了解更多",
+    "features": {
+      "title": "計畫特色",
+      "items": [
+        {
+          "title": "協作學習",
+          "description": "同儕相互觀摩教學方法，促進持續改進的文化。"
+        },
+        {
+          "title": "建設性回饋",
+          "description": "結構化的觀課表單和觀課後討論，幫助識別優勢和成長領域。"
+        },
+        {
+          "title": "專業發展",
+          "description": "參與者能深入了解多元的教學策略和計算機科學教育的教學方法。"
+        },
+        {
+          "title": "EMI 提升",
+          "description": "透過同儕驅動的品質保證，支持英語授課（EMI）教學實踐。"
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "關於計畫",
+    "intro": "計算機科學基礎課程同儕觀課計畫旨在透過結構化、支持性的同儕審查流程來提升教學品質。此計畫匯集教師在 EMI（英語授課）情境中觀察、反思和改善教學實踐。",
+    "objectives_title": "計畫目標",
+    "objectives": [
+      "促進計算機科學教育者的反思性教學實踐",
+      "提供建設性、以證據為基礎的教學回饋",
+      "分享計算機科學基礎課程的有效教學策略",
+      "透過同儕合作提升 EMI 教學技能",
+      "在計算機科學教育中建立支持性的實踐社群"
+    ],
+    "process_title": "觀課流程",
+    "process_steps": [
+      {
+        "step": "1",
+        "title": "觀課前會議",
+        "description": "觀課者與授課教師會面，討論課程計畫、學習目標及需要回饋的特定領域。"
+      },
+      {
+        "step": "2",
+        "title": "課堂觀課",
+        "description": "觀課者出席課堂，記錄教學方法、學生參與度和學習活動。"
+      },
+      {
+        "step": "3",
+        "title": "觀課後討論",
+        "description": "雙方進行反思性討論，分享觀察結果，肯定優勢，並找出改進機會。"
+      },
+      {
+        "step": "4",
+        "title": "書面回饋",
+        "description": "觀課者提供結構化的書面報告，總結主要觀察結果和建議。"
+      }
+    ],
+    "principles_title": "指導原則",
+    "principles": [
+      "保密性 — 觀課用於專業發展，而非評鑑",
+      "尊重 — 所有回饋以建設性和同事間的方式傳達",
+      "互惠性 — 每位參與者既是觀課者也是被觀課者",
+      "成長 — 重點在於持續改進，而非追求完美"
+    ]
+  },
+  "schedule": {
+    "title": "觀課時程",
+    "description": "以下時程列出本學期計畫的同儕觀課場次。",
+    "table": {
+      "week": "週次",
+      "date": "日期",
+      "topic": "主題",
+      "observer": "觀課者"
+    },
+    "sessions": [
+      {
+        "week": "3",
+        "date": "2026-03-16",
+        "topic": "資料型別與變數",
+        "observer": "待定"
+      },
+      {
+        "week": "5",
+        "date": "2026-03-30",
+        "topic": "控制結構",
+        "observer": "待定"
+      },
+      {
+        "week": "7",
+        "date": "2026-04-13",
+        "topic": "函式與模組化設計",
+        "observer": "待定"
+      },
+      {
+        "week": "9",
+        "date": "2026-04-27",
+        "topic": "陣列與資料結構",
+        "observer": "待定"
+      },
+      {
+        "week": "11",
+        "date": "2026-05-11",
+        "topic": "物件導向程式設計基礎",
+        "observer": "待定"
+      },
+      {
+        "week": "13",
+        "date": "2026-05-25",
+        "topic": "演算法設計與問題解決",
+        "observer": "待定"
+      }
+    ]
+  },
+  "resources": {
+    "title": "教學資源",
+    "description": "提供同儕觀課參與者的實用資源。",
+    "categories": [
+      {
+        "title": "觀課工具",
+        "items": [
+          {
+            "title": "觀課檢核表",
+            "description": "涵蓋教學關鍵面向的結構化檢核表：清晰度、參與度、節奏和評量。"
+          },
+          {
+            "title": "回饋範本",
+            "description": "觀課後提供書面回饋的標準化範本。"
+          },
+          {
+            "title": "自我反思指南",
+            "description": "協助教師在被觀課前後反思自身教學的指南。"
+          }
+        ]
+      },
+      {
+        "title": "EMI 教學資源",
+        "items": [
+          {
+            "title": "EMI 最佳實踐",
+            "description": "STEM 課程中有效英語授課的指導方針。"
+          },
+          {
+            "title": "課堂用語工具包",
+            "description": "計算機科學英語授課中常用的學術用語和過渡語句。"
+          }
+        ]
+      },
+      {
+        "title": "計算機科學教學法",
+        "items": [
+          {
+            "title": "計算機科學中的主動學習",
+            "description": "在計算機科學基礎課程中吸引學生主動學習的策略。"
+          },
+          {
+            "title": "評量策略",
+            "description": "計算機科學入門課程中形成性和總結性評量的方法。"
+          }
+        ]
+      }
+    ]
+  },
+  "feedback": {
+    "title": "觀課回饋",
+    "description": "請使用此表單提交您的觀課回饋。所有回覆均為保密，僅用於專業發展。",
+    "form": {
+      "observer_name": "觀課者姓名",
+      "observation_date": "觀課日期",
+      "course_topic": "課程主題",
+      "strengths": "觀察到的優勢",
+      "suggestions": "改進建議",
+      "additional": "其他意見",
+      "submit": "提交回饋",
+      "placeholder_strengths": "教學中哪些方面特別有效？",
+      "placeholder_suggestions": "您有什麼改進建議？",
+      "placeholder_additional": "其他意見或觀察..."
+    }
+  },
+  "footer": {
+    "copyright": "課程同儕觀課計畫",
+    "department": "計算機科學基礎 — EMI 計畫"
+  }
+}

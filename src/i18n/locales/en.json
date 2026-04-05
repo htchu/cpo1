@@ -1,0 +1,201 @@
+{
+  "site": {
+    "title": "Course Peer Observation",
+    "subtitle": "Computer Science Foundation",
+    "description": "A collaborative peer observation program for the Computer Science Foundation course, fostering teaching excellence through constructive feedback and shared learning."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "schedule": "Schedule",
+    "resources": "Resources",
+    "feedback": "Feedback"
+  },
+  "home": {
+    "hero_title": "Course Peer Observation",
+    "hero_subtitle": "Computer Science Foundation",
+    "hero_description": "Enhancing teaching quality through collaborative observation, reflection, and professional development in computer science education.",
+    "cta_schedule": "View Schedule",
+    "cta_about": "Learn More",
+    "features": {
+      "title": "Program Highlights",
+      "items": [
+        {
+          "title": "Collaborative Learning",
+          "description": "Peers observe and learn from each other's teaching methods, promoting a culture of continuous improvement."
+        },
+        {
+          "title": "Constructive Feedback",
+          "description": "Structured observation forms and post-observation discussions help identify strengths and areas for growth."
+        },
+        {
+          "title": "Professional Development",
+          "description": "Participants gain insights into diverse teaching strategies and pedagogical approaches in CS education."
+        },
+        {
+          "title": "EMI Enhancement",
+          "description": "Support English as a Medium of Instruction (EMI) teaching practices with peer-driven quality assurance."
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "About the Program",
+    "intro": "The Course Peer Observation program for Computer Science Foundation is designed to enhance teaching quality through a structured, supportive peer review process. This initiative brings together instructors to observe, reflect, and improve their teaching practices in an EMI (English as a Medium of Instruction) context.",
+    "objectives_title": "Objectives",
+    "objectives": [
+      "Promote reflective teaching practices among CS educators",
+      "Provide constructive, evidence-based feedback on teaching",
+      "Share effective teaching strategies for CS foundation courses",
+      "Enhance EMI teaching skills through peer collaboration",
+      "Build a supportive community of practice in CS education"
+    ],
+    "process_title": "Observation Process",
+    "process_steps": [
+      {
+        "step": "1",
+        "title": "Pre-Observation Meeting",
+        "description": "Observer and instructor meet to discuss the lesson plan, learning objectives, and specific areas for feedback."
+      },
+      {
+        "step": "2",
+        "title": "Classroom Observation",
+        "description": "The observer attends the class session, taking notes on teaching methods, student engagement, and learning activities."
+      },
+      {
+        "step": "3",
+        "title": "Post-Observation Discussion",
+        "description": "A reflective discussion where both parties share observations, celebrate strengths, and identify opportunities for improvement."
+      },
+      {
+        "step": "4",
+        "title": "Written Feedback",
+        "description": "The observer provides a structured written report summarizing key observations and recommendations."
+      }
+    ],
+    "principles_title": "Guiding Principles",
+    "principles": [
+      "Confidentiality — Observations are for professional development, not evaluation",
+      "Respect — All feedback is delivered constructively and collegially",
+      "Reciprocity — Every participant serves as both observer and observed",
+      "Growth — The focus is on continuous improvement, not perfection"
+    ]
+  },
+  "schedule": {
+    "title": "Observation Schedule",
+    "description": "The following schedule outlines the planned peer observation sessions for the current semester.",
+    "table": {
+      "week": "Week",
+      "date": "Date",
+      "topic": "Topic",
+      "observer": "Observer"
+    },
+    "sessions": [
+      {
+        "week": "3",
+        "date": "2026-03-16",
+        "topic": "Data Types & Variables",
+        "observer": "TBA"
+      },
+      {
+        "week": "5",
+        "date": "2026-03-30",
+        "topic": "Control Structures",
+        "observer": "TBA"
+      },
+      {
+        "week": "7",
+        "date": "2026-04-13",
+        "topic": "Functions & Modular Design",
+        "observer": "TBA"
+      },
+      {
+        "week": "9",
+        "date": "2026-04-27",
+        "topic": "Arrays & Data Structures",
+        "observer": "TBA"
+      },
+      {
+        "week": "11",
+        "date": "2026-05-11",
+        "topic": "Object-Oriented Programming Basics",
+        "observer": "TBA"
+      },
+      {
+        "week": "13",
+        "date": "2026-05-25",
+        "topic": "Algorithm Design & Problem Solving",
+        "observer": "TBA"
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Useful resources for peer observation participants.",
+    "categories": [
+      {
+        "title": "Observation Tools",
+        "items": [
+          {
+            "title": "Observation Checklist",
+            "description": "A structured checklist covering key aspects of teaching: clarity, engagement, pacing, and assessment."
+          },
+          {
+            "title": "Feedback Template",
+            "description": "A standardized template for providing written feedback after observations."
+          },
+          {
+            "title": "Self-Reflection Guide",
+            "description": "A guide for instructors to reflect on their own teaching before and after being observed."
+          }
+        ]
+      },
+      {
+        "title": "EMI Teaching Resources",
+        "items": [
+          {
+            "title": "EMI Best Practices",
+            "description": "Guidelines for effective English-medium instruction in STEM courses."
+          },
+          {
+            "title": "Classroom Language Toolkit",
+            "description": "Common academic phrases and transitions for CS instruction in English."
+          }
+        ]
+      },
+      {
+        "title": "CS Pedagogy",
+        "items": [
+          {
+            "title": "Active Learning in CS",
+            "description": "Strategies for engaging students in active learning during CS foundation courses."
+          },
+          {
+            "title": "Assessment Strategies",
+            "description": "Approaches to formative and summative assessment in introductory CS."
+          }
+        ]
+      }
+    ]
+  },
+  "feedback": {
+    "title": "Observation Feedback",
+    "description": "Use this form to submit your observation feedback. All responses are confidential and used solely for professional development.",
+    "form": {
+      "observer_name": "Observer Name",
+      "observation_date": "Observation Date",
+      "course_topic": "Course Topic",
+      "strengths": "Strengths Observed",
+      "suggestions": "Suggestions for Improvement",
+      "additional": "Additional Comments",
+      "submit": "Submit Feedback",
+      "placeholder_strengths": "What aspects of the teaching were particularly effective?",
+      "placeholder_suggestions": "What suggestions would you offer for improvement?",
+      "placeholder_additional": "Any other comments or observations..."
+    }
+  },
+  "footer": {
+    "copyright": "Course Peer Observation Program",
+    "department": "Computer Science Foundation — EMI Initiative"
+  }
+}
