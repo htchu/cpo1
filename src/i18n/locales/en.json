@@ -1,8 +1,8 @@
 {
   "site": {
     "title": "Course Peer Observation",
-    "subtitle": "Computer Science Foundation",
-    "description": "A collaborative peer observation program for the Computer Science Foundation course, fostering teaching excellence through constructive feedback and shared learning."
+    "subtitle": "Fundamentals of Computer Science",
+    "description": "A collaborative peer observation program for the Fundamentals of Computer Science course, fostering teaching excellence through constructive feedback and shared learning."
   },
   "nav": {
     "home": "Home",
@@ -13,7 +13,7 @@
   },
   "home": {
     "hero_title": "Course Peer Observation",
-    "hero_subtitle": "Computer Science Foundation",
+    "hero_subtitle": "Fundamentals of Computer Science",
     "hero_description": "Enhancing teaching quality through collaborative observation, reflection, and professional development in computer science education.",
     "cta_schedule": "View Schedule",
     "cta_about": "Learn More",
@@ -41,7 +41,7 @@
   },
   "about": {
     "title": "About the Program",
-    "intro": "The Course Peer Observation program for Computer Science Foundation is designed to enhance teaching quality through a structured, supportive peer review process. This initiative brings together instructors to observe, reflect, and improve their teaching practices in an EMI (English as a Medium of Instruction) context.",
+    "intro": "The Course Peer Observation program for Fundamentals of Computer Science is designed to enhance teaching quality through a structured, supportive peer review process. This initiative brings together instructors to observe, reflect, and improve their teaching practices in an EMI (English as a Medium of Instruction) context.",
     "objectives_title": "Objectives",
     "objectives": [
       "Promote reflective teaching practices among CS educators",
@@ -196,6 +196,6 @@
   },
   "footer": {
     "copyright": "Course Peer Observation Program",
-    "department": "Computer Science Foundation — EMI Initiative"
+    "department": "Fundamentals of Computer Science — EMI Initiative"
   }
 }

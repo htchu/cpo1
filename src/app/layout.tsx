@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Course Peer Observation — CS Foundation",
+  title: "Course Peer Observation — Fundamentals of CS",
   description:
-    "A collaborative peer observation program for the Computer Science Foundation course.",
+    "A collaborative peer observation program for the Fundamentals of Computer Science course.",
 };
 
 export default function RootLayout({

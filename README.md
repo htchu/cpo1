@@ -1,4 +1,4 @@
-# Course Peer Observation — Computer Science Foundation
+# Course Peer Observation — Fundamentals of Computer Science
 
 A bilingual (English / 繁體中文) web application for the Course Peer Observation program, built with Next.js and deployed on Vercel.
 
