@@ -49,17 +49,16 @@ export default async function HomePage({
 
       {/* Main theme image */}
       <section className="bg-white py-12">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src="/main_theme.jpg"
-              alt={dict.site.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 1024px"
-            />
-          </div>
+        <div className="px-4 flex justify-center">
+          <Image
+            src="/main_theme.jpg"
+            alt={dict.site.title}
+            width={800}
+            height={450}
+            priority
+            className="w-full max-w-[800px] h-auto rounded-xl shadow-lg"
+            sizes="(max-width: 800px) 100vw, 800px"
+          />
         </div>
       </section>
 
