@@ -277,8 +277,77 @@
   },
   "syllabus": {
     "title": "Syllabus",
-    "description": "The syllabus and course outline for this semester's Fundamentals of Computer Science course.",
-    "coming_soon": "Content coming soon."
+    "plan_name": "Co-Creating a Cloud Ecosystem: Participatory Learning with AWS in Introduction to Computer Science",
+    "course_info": {
+      "instructor": "Hsueh-Ting Chu",
+      "program": "International Informatics Bachelor's Program",
+      "course": "Introduction to Computer Science (2)",
+      "semester": "114-2",
+      "credits": "2 Credits",
+      "class": "Intl. Informatics Bachelor's Program 1A",
+      "students": "Approx. 30",
+      "venue": "Computer Lab",
+      "attribute": "Required (EMI)"
+    },
+    "overview_title": "Overview",
+    "overview": "This course targets abstract, cognitively demanding core topics in Introduction to Computer Science (2) — operating systems, computer networks, data structures, and algorithms — using Amazon Web Services (AWS) as the teaching practice platform. Delivered in EMI mode that aligns naturally with cloud technology's English-native environment, the course combines Problem-Based Learning (PBL) with Participatory Learning strategies, transforming passive knowledge reception into co-creation of a cloud ecosystem through virtual labs on AWS.",
+    "spiral_title": "Two-Stage Spiral Thinking",
+    "spiral_description": "The course applies the core principle of participatory learning — 'Spiral Thinking' — guiding students through a multi-stage learning process of 'Explore → Analyze → Act → Reflect', designed in two major phases divided by the midterm exam.",
+    "phase1_title": "Phase 1: Before Midterm — Resource-Rich Guided Learning",
+    "phase1_description": "Before midterm, the course is teacher-led and resource-intensive, providing abundant learning materials to build a solid knowledge foundation. Each week cycles through four steps:",
+    "phase1_steps": [
+      { "label": "Explore", "text": "Instructor demonstrates how an AWS service solves a CS fundamental problem (e.g., S3 solves file storage and permissions)" },
+      { "label": "Analyze", "text": "Students analyze architecture diagrams and English technical documentation in groups" },
+      { "label": "Act", "text": "Hands-on AWS Console operations to deploy services" },
+      { "label": "Reflect", "text": "Observe CloudWatch metrics, reflect on performance issues or connection failures, iterate for optimization" }
+    ],
+    "phase2_title": "Phase 2: After Midterm — Flipped Classroom & Cooperative Learning",
+    "phase2_description": "After midterm, the course shifts to a flipped classroom model with student-centered cooperative learning for deep exploration. Students study content independently beforehand, present their findings in class, then engage in discussion and reflection — achieving a second-round deepening of 'Spiral Thinking'.",
+    "phase2_steps": [
+      { "label": "Pre-class Study", "text": "Students independently study assigned resources and AWS technical documentation" },
+      { "label": "In-class Presentation", "text": "Groups present their findings, sharing discoveries and hands-on experiences" },
+      { "label": "Discussion & Reflection", "text": "Class-wide discussion with instructor-guided deep reflection connecting theory and practice" },
+      { "label": "Collaborative Practice", "text": "Teams collaborate on project tasks using GitHub for version control and AWS for deployment" }
+    ],
+    "schedule_title": "Weekly Schedule",
+    "schedule_headers": {
+      "week": "Week",
+      "topic": "Topic",
+      "description": "Description",
+      "phase": "Phase"
+    },
+    "weeks": [
+      { "week": "1", "topic": "Cloud Computing & CS Introduction", "description": "Course objectives, AWS account setup. Introduce Client-Server concept.", "tag": "Spiral—Explore" },
+      { "week": "2", "topic": "Virtualization & OS", "description": "Launch first EC2 (Linux). SSH connection practice, Linux Command Line.", "tag": "Spiral—Act" },
+      { "week": "3", "topic": "Process Management & Monitoring", "description": "Deliberately create infinite loops, observe CPU spikes (CloudWatch), understand OS scheduling.", "tag": "Practice" },
+      { "week": "4", "topic": "Network Fundamentals & IP Addressing", "description": "Analyze CIDR and IP structure. Collaboratively diagram subnet planning on whiteboard.", "tag": "Spiral—Analyze" },
+      { "week": "5", "topic": "VPC Implementation", "description": "PBL Task 1: Build an invisible network. Implement VPC and Route Table.", "tag": "Practice" },
+      { "week": "6", "topic": "Network Security & Firewalls", "description": "Red/Blue Team exercise: Configure Security Groups. Teams swap IPs to test defenses.", "tag": "Feedback" },
+      { "week": "7", "topic": "S3 & Object Storage", "description": "Compare Array/LinkedList vs Cloud Storage. Implement S3 static web hosting.", "tag": "Spiral—Explore" },
+      { "week": "8", "topic": "Midterm Review", "description": "EMI Presentation: Groups present cloud infrastructure architecture in English.", "tag": "Development" },
+      { "week": "9", "topic": "Databases & Tree Structures", "description": "Deploy RDS. Understand B-Tree indexing impact on search performance.", "tag": "Flipped" },
+      { "week": "10", "topic": "Algorithms & Serverless", "description": "Introduce AWS Lambda. Analyze event-driven vs traditional algorithm execution.", "tag": "Flipped" },
+      { "week": "11", "topic": "Computational Complexity", "description": "Compare local Python vs Lambda execution: time complexity and cost analysis.", "tag": "Flipped" },
+      { "week": "12", "topic": "Project Kickoff", "description": "Define final project (e.g., campus used-book marketplace). Draw detailed architecture.", "tag": "Cooperative" },
+      { "week": "13", "topic": "System Building & Collaboration", "description": "Team development with GitHub version control and AWS deployment.", "tag": "Cooperative" },
+      { "week": "14", "topic": "Testing & Optimization", "description": "Load testing. Optimize system parameters based on test reports.", "tag": "Feedback" },
+      { "week": "15", "topic": "Security Summary", "description": "Comprehensive security review, final optimization and debugging.", "tag": "Cooperative" },
+      { "week": "16", "topic": "Final Presentation", "description": "English-only demo day. Industry mentors or external faculty as judges.", "tag": "Development" },
+      { "week": "17", "topic": "Self-directed Learning", "description": "Summarize learning journey.", "tag": "Reflection" },
+      { "week": "18", "topic": "Self-directed Learning", "description": "Summarize learning journey.", "tag": "Reflection" }
+    ],
+    "outcomes_title": "Expected Outcomes",
+    "outcomes": [
+      { "category": "Knowledge", "text": "Explain OSI model, virtualization, RESTful APIs and other core concepts in English" },
+      { "category": "Skills", "text": "Independently operate AWS Console for Web Server setup, VPC configuration, with basic Linux proficiency" },
+      { "category": "Attitude", "text": "Shift from 'afraid to speak' to 'willing to express technical viewpoints in English' with proactive troubleshooting mindset" }
+    ],
+    "outputs_title": "Course Deliverables",
+    "outputs": [
+      "Cloud project portfolio: Complete cloud application system per group (architecture diagrams, source code, deployment docs)",
+      "EMI bilingual teaching guide: AWS key terminology bilingual handbook and illustrated cloud lab handouts",
+      "Demo videos: Students record English-language AWS service tutorial screencasts"
+    ]
   },
   "teaching_log": {
     "title": "Teaching Log",

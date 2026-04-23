@@ -277,8 +277,77 @@
   },
   "syllabus": {
     "title": "教學計畫",
-    "description": "本學期計算機概論課程的教學計畫與課程大綱。",
-    "coming_soon": "內容即將上線，敬請期待。"
+    "plan_name": "共創雲端生態系：應用 AWS 平台進行參與式學習於計算機概論之研究",
+    "course_info": {
+      "instructor": "朱學亭",
+      "program": "國際資訊學士學位學程",
+      "course": "計算機概論(二)",
+      "semester": "114-2",
+      "credits": "2學分",
+      "class": "國際資訊學士學位學程一A",
+      "students": "約30人",
+      "venue": "電腦教室",
+      "attribute": "系所必修（EMI全英語教學）"
+    },
+    "overview_title": "計畫摘要",
+    "overview": "本課程針對「計算機概論（二）」中抽象且高認知負荷的核心單元（作業系統、計算機網路、資料結構與演算法），導入 Amazon Web Services (AWS) 雲端平台作為教學實踐場域。課程採 EMI 模式，與雲端技術的原生英語環境高度契合。本計畫採用「問題導向學習 (PBL)」結合「參與式學習 (Participatory Learning)」策略，透過在 AWS 上共創虛擬實驗室，將被動的知識接收轉化為共創的雲端生態系。",
+    "spiral_title": "兩階段螺旋式思考",
+    "spiral_description": "課程採用參與式學習的核心原則——「螺旋式思考」，引導學生經歷「初探→分析→行動→回饋」的多階段學習歷程，並依期中考為分界設計為兩大階段。",
+    "phase1_title": "第一階段：期中考前 — 大量學習資源引導",
+    "phase1_description": "期中考前以教師主導、資源密集的方式進行，提供大量學習資源讓學生建立扎實的基礎知識。每週循環「初探→分析→行動→回饋」四步驟：",
+    "phase1_steps": [
+      { "label": "初探", "text": "教師演示 AWS 服務解決了什麼 CS 基礎問題（如 S3 解決檔案儲存與權限問題）" },
+      { "label": "分析", "text": "學生分組分析該服務的架構圖與英文技術文件" },
+      { "label": "行動", "text": "進入 AWS Console 實際操作，部署服務" },
+      { "label": "回饋", "text": "觀察 CloudWatch 監控數據，反思為何效能低落或連線失敗，進入下一輪優化" }
+    ],
+    "phase2_title": "第二階段：期中考後 — 翻轉教室與合作學習",
+    "phase2_description": "期中考後轉為翻轉教室模式，以學生為中心的合作學習推動深度探索。學生先自主研習內容，於課堂中報告所學，再進行課程討論及反思，實現「螺旋式思考」的第二輪深化。",
+    "phase2_steps": [
+      { "label": "課前研習", "text": "學生自主研讀指定資源與 AWS 技術文件，預習新單元" },
+      { "label": "課堂報告", "text": "各組報告研習成果，分享發現與實作心得" },
+      { "label": "討論反思", "text": "全班進行課程討論，教師引導深度反思，連結理論與實務" },
+      { "label": "協作實作", "text": "小組協作完成專題任務，透過 GitHub 版控與 AWS 部署" }
+    ],
+    "schedule_title": "每週課程進度",
+    "schedule_headers": {
+      "week": "週次",
+      "topic": "課程主題",
+      "description": "內容說明",
+      "phase": "階段"
+    },
+    "weeks": [
+      { "week": "1", "topic": "雲端運算與計概導論", "description": "介紹課程目標、AWS 帳號啟用。引入 Client-Server 概念。", "tag": "螺旋—初探" },
+      { "week": "2", "topic": "虛擬化與作業系統", "description": "啟動第一台 EC2 (Linux)。實作 SSH 連線，練習 Linux Command Line。", "tag": "螺旋—行動" },
+      { "week": "3", "topic": "行程管理與資源監控", "description": "透過故意寫死迴圈程式，觀察 CPU 飆升 (CloudWatch)，理解 OS 行程排程與資源分配。", "tag": "實踐行動" },
+      { "week": "4", "topic": "網路基礎與 IP 定址", "description": "分析 CIDR 與 IP 結構。在白板上協作畫出子網域 (Subnet) 規劃圖。", "tag": "螺旋—分析" },
+      { "week": "5", "topic": "VPC 虛擬私有雲實作", "description": "PBL 任務一：架設一個別人 ping 不到的隱形網路。實作 VPC 與 Route Table。", "tag": "實踐行動" },
+      { "week": "6", "topic": "網路安全與防火牆", "description": "攻防演練：設定 Security Group。組間互換 IP，測試能否攻破對方的 Web Server。", "tag": "回饋策略" },
+      { "week": "7", "topic": "S3 與物件儲存", "description": "對比 Array/LinkedList 與 Cloud Storage 的差異。實作 S3 靜態網頁託管。", "tag": "螺旋—初探" },
+      { "week": "8", "topic": "期中實作檢核", "description": "EMI Presentation：各組用英文報告目前的雲端基礎設施架構。", "tag": "發展性" },
+      { "week": "9", "topic": "資料庫與樹狀結構", "description": "部署 RDS (Relational Database)，理解 B-Tree 索引對搜尋效能的影響。", "tag": "翻轉教室" },
+      { "week": "10", "topic": "演算法和 Serverless 架構", "description": "介紹 AWS Lambda。分析 Event-driven 與傳統演算法執行的差異。", "tag": "翻轉教室" },
+      { "week": "11", "topic": "運算複雜度與效能", "description": "比較本地端 Python 程式與 Lambda 執行相同演算法的時間複雜度與成本。", "tag": "翻轉教室" },
+      { "week": "12", "topic": "專題啟動：需求分析", "description": "確立期末專題題目（如：校園二手書交易平台）。繪製詳細架構圖。", "tag": "合作學習" },
+      { "week": "13", "topic": "系統建置與協作", "description": "小組協作開發。使用 GitHub 進行程式碼版控，AWS 進行部署。", "tag": "合作學習" },
+      { "week": "14", "topic": "測試與優化", "description": "壓力測試 (Load Testing)。根據測試報告優化系統參數。", "tag": "回饋策略" },
+      { "week": "15", "topic": "資訊安全總結", "description": "綜合檢視系統安全性，進行最終優化與除錯。", "tag": "合作學習" },
+      { "week": "16", "topic": "期末成果發表", "description": "全英語成果發表會。邀請業師或外系教授擔任評審。", "tag": "發展性" },
+      { "week": "17", "topic": "期末自主學習", "description": "總結學習歷程。", "tag": "反思" },
+      { "week": "18", "topic": "期末自主學習", "description": "總結學習歷程。", "tag": "反思" }
+    ],
+    "outcomes_title": "預期學習成效",
+    "outcomes": [
+      { "category": "知識", "text": "能用英語解釋 OSI 模型、虛擬化技術、RESTful API 等核心概念" },
+      { "category": "技能", "text": "能獨立操作 AWS Console 完成 Web Server 架設、VPC 網路配置，具備基本 Linux 操作能力" },
+      { "category": "態度", "text": "從「害怕開口」轉變為「願意嘗試用英語表達技術觀點」，展現主動解決問題的工程師思維" }
+    ],
+    "outputs_title": "課程產出",
+    "outputs": [
+      "雲端專題作品集：每組產出完整的雲端應用系統（含架構圖、原始碼、部署文件）",
+      "EMI 雙語教學指引：編撰「AWS 關鍵術語中英對照手冊」與「圖解雲端實作講義」",
+      "實作示範影片：學生錄製全英語的 AWS 服務操作教學影片"
+    ]
   },
   "teaching_log": {
     "title": "教學記錄",

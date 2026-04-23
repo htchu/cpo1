@@ -121,8 +121,45 @@ export interface Dictionary {
   };
   syllabus: {
     title: string;
-    description: string;
-    coming_soon: string;
+    plan_name: string;
+    course_info: {
+      instructor: string;
+      program: string;
+      course: string;
+      semester: string;
+      credits: string;
+      class: string;
+      students: string;
+      venue: string;
+      attribute: string;
+    };
+    overview_title: string;
+    overview: string;
+    spiral_title: string;
+    spiral_description: string;
+    phase1_title: string;
+    phase1_description: string;
+    phase1_steps: Array<{ label: string; text: string }>;
+    phase2_title: string;
+    phase2_description: string;
+    phase2_steps: Array<{ label: string; text: string }>;
+    schedule_title: string;
+    schedule_headers: {
+      week: string;
+      topic: string;
+      description: string;
+      phase: string;
+    };
+    weeks: Array<{
+      week: string;
+      topic: string;
+      description: string;
+      tag: string;
+    }>;
+    outcomes_title: string;
+    outcomes: Array<{ category: string; text: string }>;
+    outputs_title: string;
+    outputs: string[];
   };
   teaching_log: {
     title: string;
