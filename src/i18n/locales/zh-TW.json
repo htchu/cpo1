@@ -9,8 +9,17 @@
     "about": "關於計畫",
     "emi_community": "EMI社群計畫",
     "peer_observation": "同儕觀課計畫",
+    "course": "關於課程",
+    "syllabus": "教學計畫",
+    "teaching_log": "教學記錄",
+    "student_profile": "學生組成",
+    "emi_teaching": "EMI教學",
+    "teaching_methods": "教學方法",
+    "platforms_tools": "平台與工具",
+    "emi_resources": "相關EMI資源",
+    "observation": "觀課資訊",
     "schedule": "觀課時程",
-    "resources": "教學資源",
+    "guidelines": "觀課指引",
     "feedback": "觀課回饋"
   },
   "home": {
@@ -202,8 +211,8 @@
     ]
   },
   "resources": {
-    "title": "教學資源",
-    "description": "提供同儕觀課參與者的實用資源。",
+    "title": "觀課指引",
+    "description": "提供同儕觀課參與者的實用資源與指引。",
     "categories": [
       {
         "title": "觀課工具",
@@ -265,6 +274,36 @@
       "placeholder_suggestions": "您有什麼改進建議？",
       "placeholder_additional": "其他意見或觀察..."
     }
+  },
+  "syllabus": {
+    "title": "教學計畫",
+    "description": "本學期計算機概論課程的教學計畫與課程大綱。",
+    "coming_soon": "內容即將上線，敬請期待。"
+  },
+  "teaching_log": {
+    "title": "教學記錄",
+    "description": "記錄每週教學活動、課堂觀察與教學反思。",
+    "coming_soon": "內容即將上線，敬請期待。"
+  },
+  "student_profile": {
+    "title": "學生組成",
+    "description": "修課學生的背景分析與學習概況。",
+    "coming_soon": "內容即將上線，敬請期待。"
+  },
+  "teaching_methods": {
+    "title": "教學方法",
+    "description": "EMI課程中採用的教學策略與方法。",
+    "coming_soon": "內容即將上線，敬請期待。"
+  },
+  "platforms_tools": {
+    "title": "平台與工具",
+    "description": "課程中使用的數位平台與教學工具介紹。",
+    "coming_soon": "內容即將上線，敬請期待。"
+  },
+  "emi_resources": {
+    "title": "相關EMI資源",
+    "description": "EMI教學相關的參考資源與學習材料。",
+    "coming_soon": "內容即將上線，敬請期待。"
   },
   "footer": {
     "copyright": "課程同儕觀課計畫",

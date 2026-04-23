@@ -9,8 +9,17 @@
     "about": "About",
     "emi_community": "EMI Community",
     "peer_observation": "Peer Observation",
+    "course": "Course",
+    "syllabus": "Syllabus",
+    "teaching_log": "Teaching Log",
+    "student_profile": "Student Profile",
+    "emi_teaching": "EMI Teaching",
+    "teaching_methods": "Teaching Methods",
+    "platforms_tools": "Platforms & Tools",
+    "emi_resources": "EMI Resources",
+    "observation": "Observation",
     "schedule": "Schedule",
-    "resources": "Resources",
+    "guidelines": "Observation Guide",
     "feedback": "Feedback"
   },
   "home": {
@@ -202,8 +211,8 @@
     ]
   },
   "resources": {
-    "title": "Resources",
-    "description": "Useful resources for peer observation participants.",
+    "title": "Observation Guide",
+    "description": "Useful resources and guidelines for peer observation participants.",
     "categories": [
       {
         "title": "Observation Tools",
@@ -265,6 +274,36 @@
       "placeholder_suggestions": "What suggestions would you offer for improvement?",
       "placeholder_additional": "Any other comments or observations..."
     }
+  },
+  "syllabus": {
+    "title": "Syllabus",
+    "description": "The syllabus and course outline for this semester's Fundamentals of Computer Science course.",
+    "coming_soon": "Content coming soon."
+  },
+  "teaching_log": {
+    "title": "Teaching Log",
+    "description": "Weekly teaching activities, classroom observations, and teaching reflections.",
+    "coming_soon": "Content coming soon."
+  },
+  "student_profile": {
+    "title": "Student Profile",
+    "description": "Background analysis and learning overview of enrolled students.",
+    "coming_soon": "Content coming soon."
+  },
+  "teaching_methods": {
+    "title": "Teaching Methods",
+    "description": "Teaching strategies and methods used in the EMI course.",
+    "coming_soon": "Content coming soon."
+  },
+  "platforms_tools": {
+    "title": "Platforms & Tools",
+    "description": "Digital platforms and teaching tools used in the course.",
+    "coming_soon": "Content coming soon."
+  },
+  "emi_resources": {
+    "title": "EMI Resources",
+    "description": "Reference resources and learning materials related to EMI teaching.",
+    "coming_soon": "Content coming soon."
   },
   "footer": {
     "copyright": "Course Peer Observation Program",

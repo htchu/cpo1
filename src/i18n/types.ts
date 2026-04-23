@@ -9,8 +9,17 @@ export interface Dictionary {
     about: string;
     emi_community: string;
     peer_observation: string;
+    course: string;
+    syllabus: string;
+    teaching_log: string;
+    student_profile: string;
+    emi_teaching: string;
+    teaching_methods: string;
+    platforms_tools: string;
+    emi_resources: string;
+    observation: string;
     schedule: string;
-    resources: string;
+    guidelines: string;
     feedback: string;
   };
   home: {
@@ -109,6 +118,36 @@ export interface Dictionary {
       placeholder_suggestions: string;
       placeholder_additional: string;
     };
+  };
+  syllabus: {
+    title: string;
+    description: string;
+    coming_soon: string;
+  };
+  teaching_log: {
+    title: string;
+    description: string;
+    coming_soon: string;
+  };
+  student_profile: {
+    title: string;
+    description: string;
+    coming_soon: string;
+  };
+  teaching_methods: {
+    title: string;
+    description: string;
+    coming_soon: string;
+  };
+  platforms_tools: {
+    title: string;
+    description: string;
+    coming_soon: string;
+  };
+  emi_resources: {
+    title: string;
+    description: string;
+    coming_soon: string;
   };
   footer: {
     copyright: string;
