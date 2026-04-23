@@ -150,65 +150,16 @@
   },
   "schedule": {
     "title": "Observation Schedule",
-    "description": "The following schedule outlines the planned peer observation sessions for the current semester.",
-    "table": {
-      "week": "Week",
-      "date": "Date",
-      "time": "Time",
-      "location": "Location",
-      "topic": "Topic",
-      "observer": "Observer"
-    },
-    "sessions": [
-      {
-        "week": "3",
-        "date": "2026-03-16",
-        "time": "",
-        "location": "",
-        "topic": "Data Types & Variables",
-        "observer": "TBA"
-      },
-      {
-        "week": "5",
-        "date": "2026-03-30",
-        "time": "",
-        "location": "",
-        "topic": "Control Structures",
-        "observer": "TBA"
-      },
-      {
-        "week": "7",
-        "date": "2026-04-13",
-        "time": "",
-        "location": "",
-        "topic": "Functions & Modular Design",
-        "observer": "TBA"
-      },
-      {
-        "week": "9",
-        "date": "2026-04-27",
-        "time": "",
-        "location": "",
-        "topic": "Arrays & Data Structures",
-        "observer": "TBA"
-      },
-      {
-        "week": "11",
-        "date": "2026-05-11",
-        "time": "",
-        "location": "",
-        "topic": "Object-Oriented Programming Basics",
-        "observer": "TBA"
-      },
-      {
-        "week": "13",
-        "date": "2026-05-28",
-        "time": "10:10–12:00",
-        "location": "Room 307, Main Building",
-        "topic": "Algorithm Design & Problem Solving",
-        "observer": "TBA"
-      }
-    ]
+    "description": "Peer observation session for the current semester.",
+    "date": "2026-05-28 (Wed)",
+    "time": "10:10–12:00",
+    "location": "Room 307, Main Building",
+    "topic": "Algorithm Design & Problem Solving",
+    "online_title": "Online Observation",
+    "online_description": "We also offer online observation via Microsoft Teams. Observers who cannot attend in person are welcome to join through the link below.",
+    "teams_link": "https://reurl.cc/WbOqlx",
+    "teams_link_label": "Join Teams Online Observation",
+    "teams_qrcode": "/img/teams_link_qrcode.png"
   },
   "resources": {
     "title": "Observation Guide",

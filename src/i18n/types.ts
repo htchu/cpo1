@@ -75,22 +75,15 @@ export interface Dictionary {
   schedule: {
     title: string;
     description: string;
-    table: {
-      week: string;
-      date: string;
-      time: string;
-      location: string;
-      topic: string;
-      observer: string;
-    };
-    sessions: Array<{
-      week: string;
-      date: string;
-      time: string;
-      location: string;
-      topic: string;
-      observer: string;
-    }>;
+    date: string;
+    time: string;
+    location: string;
+    topic: string;
+    online_title: string;
+    online_description: string;
+    teams_link: string;
+    teams_link_label: string;
+    teams_qrcode: string;
   };
   resources: {
     title: string;
