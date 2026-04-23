@@ -368,13 +368,99 @@
   },
   "teaching_methods": {
     "title": "Teaching Methods",
-    "description": "Teaching strategies and methods used in the EMI course.",
-    "coming_soon": "Content coming soon."
+    "subtitle": "ESAP Course × Engaged Learning",
+    "intro": "This is an ESAP (English for Specific Academic Purposes) course with computer science as the subject domain, delivered in EMI (English as a Medium of Instruction) mode. The core design incorporates Engaged Learning strategies combined with Problem-Based Learning (PBL), enabling students to simultaneously enhance their professional knowledge and English communication skills in authentic cloud technology contexts.",
+    "esap_title": "ESAP Course Features",
+    "esap_points": [
+      "Computer science as content, English as medium — students learn subject knowledge and professional English simultaneously",
+      "AWS cloud platform's native English environment provides immersive professional English exposure",
+      "Activities include English technical document reading, oral presentations, and all-English demo day",
+      "Develops students' ability to communicate professionally in English within the IT domain"
+    ],
+    "methods_title": "Core Teaching Methods",
+    "methods": [
+      {
+        "name": "Engaged Learning",
+        "description": "Centered on 'Spiral Thinking', students are guided through a multi-stage learning process of 'Explore → Analyze → Act → Reflect'. Students shift from passive knowledge receivers to active knowledge constructors by co-creating virtual labs on AWS to solve real problems.",
+        "highlights": [
+          "Before midterm: Teacher-led with abundant learning resources to build foundations",
+          "After midterm: Student-led flipped classroom model for deeper learning",
+          "Spiral cycles: Each learning round deepens upon the previous one"
+        ]
+      },
+      {
+        "name": "Flipped Classroom",
+        "description": "After midterm, the course shifts to a flipped classroom model. Students independently study assigned resources and AWS technical documentation before class. Class time is dedicated to presentations, discussions, and collaborative practice — achieving student-centered deep learning.",
+        "highlights": [
+          "Pre-class: Students independently study materials and technical docs",
+          "In-class: Group presentations, class-wide discussion and reflection",
+          "Post-class: Collaborative project work with continuous optimization"
+        ]
+      },
+      {
+        "name": "Peer Review",
+        "description": "Structured peer review mechanisms develop critical thinking and communication skills. Includes 'Architecture Diagram Peer Review' and 'Red Team/Blue Team' exercises — one group designs network defenses while another attempts to find vulnerabilities.",
+        "highlights": [
+          "Architecture peer review: Cross-group review of cloud architecture designs",
+          "Red/Blue Team drills: Interactive learning simulating real cybersecurity scenarios",
+          "End-of-term peer assessment: Evaluate team member contributions and collaboration"
+        ]
+      },
+      {
+        "name": "Scaffolding",
+        "description": "In the EMI environment, scaffolding theory reduces cognitive load. AWS Console's graphical interface and visual architecture diagrams serve as cognitive scaffolds, helping students overcome language barriers to understand technical logic. Scaffolds are gradually removed as students' capabilities grow, fostering independent learning.",
+        "highlights": [
+          "Early stage: Instructor demos + AWS GUI to support comprehension",
+          "Mid stage: English technical document analysis + group collaboration support",
+          "Late stage: Independent operation + all-English final presentations"
+        ]
+      }
+    ],
+    "theory_title": "Theoretical Foundations",
+    "theories": [
+      { "name": "Constructionism", "author": "Papert", "description": "Using AWS as digital manipulatives — students 'construct' knowledge by 'building' servers and networks." },
+      { "name": "Problem-Based Learning (PBL)", "author": "Barrows", "description": "Real-world scenarios (e.g., designing a crash-proof course registration system) drive students to actively explore." },
+      { "name": "Situated Learning", "author": "Lave & Wenger", "description": "Learning in authentic cloud technology work contexts rather than decontextualized lectures." },
+      { "name": "Computational Thinking", "author": "Wing", "description": "Developing core thinking skills: decomposition, pattern recognition, abstraction, and algorithm design." }
+    ]
   },
   "platforms_tools": {
     "title": "Platforms & Tools",
-    "description": "Digital platforms and teaching tools used in the course.",
-    "coming_soon": "Content coming soon."
+    "description": "Digital teaching platforms and interactive tools used in this course.",
+    "platforms_title": "Teaching Platforms",
+    "tools_title": "Interactive Tools",
+    "items": [
+      {
+        "name": "TronClass",
+        "category": "platform",
+        "image": "/img/TronClass.jpg",
+        "description": "The university's official Learning Management System (LMS) for course announcements, material distribution, assignment submission, and grade management. Students access course schedules, download lecture notes, and submit weekly assignments."
+      },
+      {
+        "name": "AWS Academy",
+        "category": "platform",
+        "image": "/img/AWSAcademy.jpg",
+        "description": "Amazon's official education platform providing Learner Lab cloud environments. Students perform hands-on operations with EC2, VPC, S3, RDS, Lambda, and other AWS services — the core practice arena for this course's engaged learning approach."
+      },
+      {
+        "name": "Padlet",
+        "category": "tool",
+        "image": "/img/Padlet.jpg",
+        "description": "Online collaborative whiteboard for real-time brainstorming, group discussion summaries, and pre-class study note sharing in the flipped classroom model. Supports text, images, links, and multimedia content."
+      },
+      {
+        "name": "Slido",
+        "category": "tool",
+        "image": "/img/Slido.jpg",
+        "description": "Real-time interactive polling and Q&A tool for in-class surveys, knowledge check quizzes, and anonymous questions. Effectively increases student engagement and feedback immediacy in EMI classes."
+      },
+      {
+        "name": "Microsoft Teams",
+        "category": "tool",
+        "image": "/img/Teams.jpg",
+        "description": "Team collaboration and communication platform for group project discussions, after-class Q&A, file sharing, and online meetings. Each project team has a dedicated channel for tracking progress and conducting peer reviews."
+      }
+    ]
   },
   "emi_resources": {
     "title": "EMI Resources",

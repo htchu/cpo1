@@ -368,13 +368,99 @@
   },
   "teaching_methods": {
     "title": "教學方法",
-    "description": "EMI課程中採用的教學策略與方法。",
-    "coming_soon": "內容即將上線，敬請期待。"
+    "subtitle": "ESAP 課程 × 參與式學習",
+    "intro": "本課程為 ESAP（English for Specific Academic Purposes，專業學術英語）課程，以計算機科學為專業領域，採用全英語授課（EMI）模式。課程核心設計導入「參與式學習（Engaged Learning）」策略，結合問題導向學習（PBL），讓學生在真實的雲端技術情境中同時提升專業知識與英語溝通能力。",
+    "esap_title": "ESAP 課程特色",
+    "esap_points": [
+      "以計算機科學為專業內容，英語為教學媒介，學生同步學習學科知識與專業英語",
+      "AWS 雲端平台的原生英語環境，提供沉浸式的專業英語接觸機會",
+      "課堂活動包含英文技術文件閱讀、英語口頭報告與全英語成果發表",
+      "培養學生在資訊科技領域中使用英語進行專業溝通的能力"
+    ],
+    "methods_title": "核心教學方法",
+    "methods": [
+      {
+        "name": "參與式學習 (Engaged Learning)",
+        "description": "以「螺旋式思考」為核心，引導學生經歷「初探→分析→行動→回饋」的多階段學習歷程。學生不再是被動的知識接收者，而是透過在 AWS 上共創虛擬實驗室，主動建構知識、解決真實問題。",
+        "highlights": [
+          "期中考前：教師主導，提供大量學習資源建立基礎",
+          "期中考後：學生主導，翻轉教室模式深化學習",
+          "螺旋式循環：每輪學習都在前一輪基礎上深化"
+        ]
+      },
+      {
+        "name": "翻轉教室 (Flipped Classroom)",
+        "description": "期中考後課程轉為翻轉教室模式。學生在課前自主研習指定資源與 AWS 技術文件，課堂時間用於報告、討論與協作實作，實現以學生為中心的深度學習。",
+        "highlights": [
+          "課前：學生自主研讀教材與技術文件",
+          "課中：小組報告研習成果，全班討論與反思",
+          "課後：協作完成專題任務，持續優化"
+        ]
+      },
+      {
+        "name": "同儕互評 (Peer Review)",
+        "description": "透過結構化的同儕互評機制，培養學生批判性思考與溝通能力。包含「架構圖互評」與「紅藍隊攻防演練」（Red Team/Blue Team），一組設計網路防禦機制，另一組嘗試找出漏洞。",
+        "highlights": [
+          "架構圖互評：各組交叉檢視雲端架構設計",
+          "攻防演練：模擬真實資安情境的互動式學習",
+          "期末同儕評量：評估組員貢獻度與協作表現"
+        ]
+      },
+      {
+        "name": "鷹架理論 (Scaffolding)",
+        "description": "在全英語授課環境中，運用鷹架理論降低認知負荷。AWS 的圖形化介面（Console）與視覺化架構圖作為認知鷹架，輔助學生跨越語言障礙理解技術邏輯。隨著學生能力提升，逐步撤除鷹架，培養獨立學習能力。",
+        "highlights": [
+          "初期：教師示範 + AWS 圖形化介面輔助理解",
+          "中期：英文技術文件分析 + 小組協作支撐",
+          "後期：獨立操作 + 全英語成果發表"
+        ]
+      }
+    ],
+    "theory_title": "理論基礎",
+    "theories": [
+      { "name": "建構主義 (Constructionism)", "author": "Papert", "description": "利用 AWS 作為數位操作物，學生透過「建造」伺服器與網路來「建構」知識。" },
+      { "name": "問題導向學習 (PBL)", "author": "Barrows", "description": "引入真實情境（如：如何設計一個不會當機的選課系統？），驅動學生主動探索。" },
+      { "name": "情境學習 (Situated Learning)", "author": "Lave & Wenger", "description": "在雲端技術的真實工作場域中學習，而非脫離情境的抽象講述。" },
+      { "name": "運算思維 (Computational Thinking)", "author": "Wing", "description": "培養分解、模式識別、抽象化與演算法設計等核心思維能力。" }
+    ]
   },
   "platforms_tools": {
     "title": "平台與工具",
-    "description": "課程中使用的數位平台與教學工具介紹。",
-    "coming_soon": "內容即將上線，敬請期待。"
+    "description": "本課程使用的數位教學平台與互動工具。",
+    "platforms_title": "教學平台",
+    "tools_title": "互動工具",
+    "items": [
+      {
+        "name": "TronClass",
+        "category": "platform",
+        "image": "/img/TronClass.jpg",
+        "description": "學校官方學習管理系統（LMS），用於課程公告、教材發佈、作業繳交與成績管理。學生可在平台上查看課程進度、下載講義及提交各週作業。"
+      },
+      {
+        "name": "AWS Academy",
+        "category": "platform",
+        "image": "/img/AWSAcademy.jpg",
+        "description": "Amazon 官方教育平台，提供 Learner Lab 雲端實驗室環境。學生在此進行 EC2、VPC、S3、RDS、Lambda 等 AWS 服務的實作操作，是本課程參與式學習的核心實踐場域。"
+      },
+      {
+        "name": "Padlet",
+        "category": "tool",
+        "image": "/img/Padlet.jpg",
+        "description": "線上協作白板工具，用於課堂即時腦力激盪、小組討論成果彙整與翻轉教室的課前預習筆記分享。支援文字、圖片、連結等多媒體內容。"
+      },
+      {
+        "name": "Slido",
+        "category": "tool",
+        "image": "/img/Slido.jpg",
+        "description": "即時互動投票與問答工具，用於課堂中的即時意見調查、知識檢核小測驗（Quiz）及匿名提問。有效提升 EMI 課堂中學生的參與度與回饋即時性。"
+      },
+      {
+        "name": "Microsoft Teams",
+        "category": "tool",
+        "image": "/img/Teams.jpg",
+        "description": "團隊協作與溝通平台，用於小組專題討論、課後問答、檔案共享及線上會議。各專題小組設有獨立頻道，方便追蹤進度與進行同儕互評。"
+      }
+    ]
   },
   "emi_resources": {
     "title": "相關EMI資源",

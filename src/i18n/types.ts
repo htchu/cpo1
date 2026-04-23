@@ -177,13 +177,34 @@ export interface Dictionary {
   };
   teaching_methods: {
     title: string;
-    description: string;
-    coming_soon: string;
+    subtitle: string;
+    intro: string;
+    esap_title: string;
+    esap_points: string[];
+    methods_title: string;
+    methods: Array<{
+      name: string;
+      description: string;
+      highlights: string[];
+    }>;
+    theory_title: string;
+    theories: Array<{
+      name: string;
+      author: string;
+      description: string;
+    }>;
   };
   platforms_tools: {
     title: string;
     description: string;
-    coming_soon: string;
+    platforms_title: string;
+    tools_title: string;
+    items: Array<{
+      name: string;
+      category: string;
+      image: string;
+      description: string;
+    }>;
   };
   emi_resources: {
     title: string;
