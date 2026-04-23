@@ -7,6 +7,8 @@
   "nav": {
     "home": "首頁",
     "about": "關於計畫",
+    "emi_community": "EMI社群計畫",
+    "peer_observation": "同儕觀課計畫",
     "schedule": "觀課時程",
     "resources": "教學資源",
     "feedback": "觀課回饋"
@@ -39,8 +41,64 @@
       ]
     }
   },
+  "emi_community": {
+    "title": "EMI社群計畫",
+    "subtitle": "國立中興大學EMI教學資源中心 — 跨校教師雙語專業發展社群",
+    "intro": "本社群屬【C類】課程品保社群，由來自兩校以上之EMI授課教師組成，透過課程品保機制提升EMI教學品質。",
+    "course_title": "擇定課程",
+    "course_instructor": "授課教師：朱學亭",
+    "course_name_zh": "計算機概論(二)",
+    "course_name_en": "INTRODUCTION TO COMPUTER SCIENCE (2)",
+    "members_title": "社群成員",
+    "members": [
+      {
+        "name": "朱學亭",
+        "school": "靜宜大學",
+        "department": "資訊學院",
+        "role": "副教授兼國際資訊學士學位學程主任"
+      },
+      {
+        "name": "張瑋珊",
+        "school": "靜宜大學",
+        "department": "資訊學院",
+        "role": "助理教授（召集人）"
+      },
+      {
+        "name": "邱奕龍",
+        "school": "靜宜大學",
+        "department": "資訊學院 人工智慧應用學系",
+        "role": "兼任講師"
+      },
+      {
+        "name": "黃靖雯",
+        "school": "弘光科技大學",
+        "department": "幼兒保育系",
+        "role": "助理教授"
+      },
+      {
+        "name": "梁一萍",
+        "school": "弘光科技大學",
+        "department": "國際溝通英語系",
+        "role": "教授"
+      }
+    ],
+    "activities_title": "活動規劃",
+    "activities": [
+      "預計辦理 3 次活動及會議",
+      "外部專家學者 1 位（中原大學查怡教授）",
+      "修課學生代表 2 位"
+    ],
+    "qa_title": "品保實施方式",
+    "qa_items": [
+      "實施【NCHU】全英語授課課程教學回饋問卷，針對問卷結果進行統計和量化分析",
+      "入班觀課：觀課者填寫「課程品保社群專用觀課表」",
+      "針對期中/期末筆試結果進行數據關聯性分析（成績分布、中英教學成效比較等）"
+    ],
+    "rubric_title": "尺規審查",
+    "rubric_description": "依據中興大學EMI教學資源中心提供之「EMI課程品質保證公版評量尺規」及相關規定修訂，配合中心之尺規審查流程辦理。"
+  },
   "about": {
-    "title": "關於計畫",
+    "title": "同儕觀課計畫",
     "intro": "計算機概論課程同儕觀課計畫旨在透過結構化、支持性的同儕審查流程來提升教學品質。此計畫匯集教師在 EMI（英語授課）情境中觀察、反思和改善教學實踐。",
     "objectives_title": "計畫目標",
     "objectives": [
@@ -87,6 +145,8 @@
     "table": {
       "week": "週次",
       "date": "日期",
+      "time": "時間",
+      "location": "地點",
       "topic": "主題",
       "observer": "觀課者"
     },
@@ -94,36 +154,48 @@
       {
         "week": "3",
         "date": "2026-03-16",
+        "time": "",
+        "location": "",
         "topic": "資料型別與變數",
         "observer": "待定"
       },
       {
         "week": "5",
         "date": "2026-03-30",
+        "time": "",
+        "location": "",
         "topic": "控制結構",
         "observer": "待定"
       },
       {
         "week": "7",
         "date": "2026-04-13",
+        "time": "",
+        "location": "",
         "topic": "函式與模組化設計",
         "observer": "待定"
       },
       {
         "week": "9",
         "date": "2026-04-27",
+        "time": "",
+        "location": "",
         "topic": "陣列與資料結構",
         "observer": "待定"
       },
       {
         "week": "11",
         "date": "2026-05-11",
+        "time": "",
+        "location": "",
         "topic": "物件導向程式設計基礎",
         "observer": "待定"
       },
       {
         "week": "13",
-        "date": "2026-05-25",
+        "date": "2026-05-28",
+        "time": "10:10–12:00",
+        "location": "主顧307教室",
         "topic": "演算法設計與問題解決",
         "observer": "待定"
       }

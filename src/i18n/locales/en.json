@@ -7,6 +7,8 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "emi_community": "EMI Community",
+    "peer_observation": "Peer Observation",
     "schedule": "Schedule",
     "resources": "Resources",
     "feedback": "Feedback"
@@ -39,8 +41,64 @@
       ]
     }
   },
+  "emi_community": {
+    "title": "EMI Community Plan",
+    "subtitle": "NCHU EMI Teaching Resource Center — Cross-University Bilingual Professional Development Community",
+    "intro": "This community is a Type C (Course Quality Assurance) group, composed of EMI instructors from two or more universities, dedicated to enhancing EMI teaching quality through course quality assurance mechanisms.",
+    "course_title": "Selected Course",
+    "course_instructor": "Instructor: Hsueh-Ting Chu",
+    "course_name_zh": "計算機概論(二)",
+    "course_name_en": "INTRODUCTION TO COMPUTER SCIENCE (2)",
+    "members_title": "Community Members",
+    "members": [
+      {
+        "name": "Hsueh-Ting Chu",
+        "school": "Providence University",
+        "department": "College of Informatics",
+        "role": "Associate Prof. & Director, Intl. Informatics Program"
+      },
+      {
+        "name": "Wei-Shan Chang",
+        "school": "Providence University",
+        "department": "College of Informatics",
+        "role": "Assistant Professor (Convener)"
+      },
+      {
+        "name": "Yi-Long Chiu",
+        "school": "Providence University",
+        "department": "College of Informatics, Dept. of AI Applications",
+        "role": "Adjunct Lecturer"
+      },
+      {
+        "name": "Ching-Wen Huang",
+        "school": "Hungkuang University",
+        "department": "Dept. of Early Childhood Care & Education",
+        "role": "Assistant Professor"
+      },
+      {
+        "name": "Yi-Ping Liang",
+        "school": "Hungkuang University",
+        "department": "Dept. of Intl. Communication English",
+        "role": "Professor"
+      }
+    ],
+    "activities_title": "Planned Activities",
+    "activities": [
+      "3 meetings and activities planned",
+      "1 external expert (Prof. Yi Zha, Chung Yuan Christian University)",
+      "2 student representatives"
+    ],
+    "qa_title": "Quality Assurance Methods",
+    "qa_items": [
+      "Administer NCHU EMI Course Teaching Feedback Questionnaire with statistical and quantitative analysis",
+      "Classroom observation: observers complete the Course QA Community Observation Form",
+      "Data correlation analysis of midterm/final exam results (score distribution, Chinese/English teaching effectiveness comparison, etc.)"
+    ],
+    "rubric_title": "Rubric Review",
+    "rubric_description": "Revised based on the EMI Course Quality Assurance Standard Rubric provided by the NCHU EMI Teaching Resource Center, following the center's rubric review process."
+  },
   "about": {
-    "title": "About the Program",
+    "title": "Peer Observation Plan",
     "intro": "The Course Peer Observation program for Fundamentals of Computer Science is designed to enhance teaching quality through a structured, supportive peer review process. This initiative brings together instructors to observe, reflect, and improve their teaching practices in an EMI (English as a Medium of Instruction) context.",
     "objectives_title": "Objectives",
     "objectives": [
@@ -87,6 +145,8 @@
     "table": {
       "week": "Week",
       "date": "Date",
+      "time": "Time",
+      "location": "Location",
       "topic": "Topic",
       "observer": "Observer"
     },
@@ -94,36 +154,48 @@
       {
         "week": "3",
         "date": "2026-03-16",
+        "time": "",
+        "location": "",
         "topic": "Data Types & Variables",
         "observer": "TBA"
       },
       {
         "week": "5",
         "date": "2026-03-30",
+        "time": "",
+        "location": "",
         "topic": "Control Structures",
         "observer": "TBA"
       },
       {
         "week": "7",
         "date": "2026-04-13",
+        "time": "",
+        "location": "",
         "topic": "Functions & Modular Design",
         "observer": "TBA"
       },
       {
         "week": "9",
         "date": "2026-04-27",
+        "time": "",
+        "location": "",
         "topic": "Arrays & Data Structures",
         "observer": "TBA"
       },
       {
         "week": "11",
         "date": "2026-05-11",
+        "time": "",
+        "location": "",
         "topic": "Object-Oriented Programming Basics",
         "observer": "TBA"
       },
       {
         "week": "13",
-        "date": "2026-05-25",
+        "date": "2026-05-28",
+        "time": "10:10–12:00",
+        "location": "Room 307, Main Building",
         "topic": "Algorithm Design & Problem Solving",
         "observer": "TBA"
       }

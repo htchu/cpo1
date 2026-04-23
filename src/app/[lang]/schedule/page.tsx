@@ -27,6 +27,12 @@ export default async function SchedulePage({
                 {dict.schedule.table.date}
               </th>
               <th className="px-6 py-3 text-left text-sm font-medium">
+                {dict.schedule.table.time}
+              </th>
+              <th className="px-6 py-3 text-left text-sm font-medium">
+                {dict.schedule.table.location}
+              </th>
+              <th className="px-6 py-3 text-left text-sm font-medium">
                 {dict.schedule.table.topic}
               </th>
               <th className="px-6 py-3 text-left text-sm font-medium">
@@ -47,6 +53,12 @@ export default async function SchedulePage({
                 </td>
                 <td className="px-6 py-4 text-sm text-slate-600">
                   {session.date}
+                </td>
+                <td className="px-6 py-4 text-sm text-slate-600">
+                  {session.time || "—"}
+                </td>
+                <td className="px-6 py-4 text-sm text-slate-600">
+                  {session.location || "—"}
                 </td>
                 <td className="px-6 py-4 text-sm text-slate-800">
                   {session.topic}
