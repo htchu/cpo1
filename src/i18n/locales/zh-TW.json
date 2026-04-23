@@ -11,7 +11,7 @@
     "peer_observation": "同儕觀課計畫",
     "course": "關於課程",
     "syllabus": "教學計畫",
-    "teaching_log": "教學記錄",
+    "teaching_log": "教材和記錄",
     "student_profile": "學生組成",
     "emi_teaching": "EMI教學",
     "teaching_methods": "教學方法",
@@ -350,9 +350,16 @@
     ]
   },
   "teaching_log": {
-    "title": "教學記錄",
-    "description": "記錄每週教學活動、課堂觀察與教學反思。",
-    "coming_soon": "內容即將上線，敬請期待。"
+    "title": "教材和記錄",
+    "description": "各週課程講義與教學資料，點擊可開啟 PDF 檔案。",
+    "lectures": [
+      { "week": "1", "title": "Course Introduction", "file": "/docs/PUCS01-Course Introduction.pdf" },
+      { "week": "2", "title": "Data and Database", "file": "/docs/PUCS02-Data and Database.pdf" },
+      { "week": "3", "title": "Computer Organization and Cloud Computing", "file": "/docs/PUCS03-Computer Organization and Cloud Computing.pdf" },
+      { "week": "4", "title": "Computer Networks", "file": "/docs/PUCS04-Computer networks.pdf" },
+      { "week": "5", "title": "OS and Cloud Computing", "file": "/docs/PUCS05-OS and Cloud Computing.pdf" },
+      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" }
+    ]
   },
   "student_profile": {
     "title": "學生組成",

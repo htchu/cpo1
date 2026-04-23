@@ -164,7 +164,11 @@ export interface Dictionary {
   teaching_log: {
     title: string;
     description: string;
-    coming_soon: string;
+    lectures: Array<{
+      week: string;
+      title: string;
+      file: string;
+    }>;
   };
   student_profile: {
     title: string;

@@ -11,7 +11,7 @@
     "peer_observation": "Peer Observation",
     "course": "Course",
     "syllabus": "Syllabus",
-    "teaching_log": "Teaching Log",
+    "teaching_log": "Materials & Log",
     "student_profile": "Student Profile",
     "emi_teaching": "EMI Teaching",
     "teaching_methods": "Teaching Methods",
@@ -350,9 +350,16 @@
     ]
   },
   "teaching_log": {
-    "title": "Teaching Log",
-    "description": "Weekly teaching activities, classroom observations, and teaching reflections.",
-    "coming_soon": "Content coming soon."
+    "title": "Materials & Log",
+    "description": "Weekly lecture notes and teaching materials. Click to open PDF files.",
+    "lectures": [
+      { "week": "1", "title": "Course Introduction", "file": "/docs/PUCS01-Course Introduction.pdf" },
+      { "week": "2", "title": "Data and Database", "file": "/docs/PUCS02-Data and Database.pdf" },
+      { "week": "3", "title": "Computer Organization and Cloud Computing", "file": "/docs/PUCS03-Computer Organization and Cloud Computing.pdf" },
+      { "week": "4", "title": "Computer Networks", "file": "/docs/PUCS04-Computer networks.pdf" },
+      { "week": "5", "title": "OS and Cloud Computing", "file": "/docs/PUCS05-OS and Cloud Computing.pdf" },
+      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" }
+    ]
   },
   "student_profile": {
     "title": "Student Profile",
