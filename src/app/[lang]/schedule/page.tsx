@@ -40,10 +40,14 @@ export default async function SchedulePage({
               {d.location}
             </div>
 
-            <div className="text-xs text-slate-400 mb-1 uppercase tracking-wider">
-              {lang === "zh-TW" ? "主題" : "Topic"}
-            </div>
-            <div className="text-lg text-slate-700">{d.topic}</div>
+            {d.topic && (
+              <>
+                <div className="text-xs text-slate-400 mb-1 uppercase tracking-wider">
+                  {lang === "zh-TW" ? "主題" : "Topic"}
+                </div>
+                <div className="text-lg text-slate-700">{d.topic}</div>
+              </>
+            )}
           </div>
 
           <div className="flex items-center justify-center">
