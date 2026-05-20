@@ -41,6 +41,7 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
       items: [
         { href: `/${lang}/emi-community`, label: dict.nav.emi_community },
         { href: `/${lang}/about`, label: dict.nav.peer_observation },
+        { href: "https://www.aiplab.tw/people", label: dict.nav.instructor },
       ],
     },
     {
@@ -56,7 +57,6 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
       items: [
         { href: `/${lang}/teaching-methods`, label: dict.nav.teaching_methods },
         { href: `/${lang}/platforms-tools`, label: dict.nav.platforms_tools },
-        { href: `/${lang}/emi-resources`, label: dict.nav.emi_resources },
       ],
     },
     {
@@ -64,7 +64,7 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
       items: [
         { href: `/${lang}/schedule`, label: dict.nav.schedule },
         { href: `/${lang}/resources`, label: dict.nav.guidelines },
-        { href: `/${lang}/feedback`, label: dict.nav.feedback },
+        { href: `/${lang}/learning-outcomes`, label: dict.nav.learning_outcomes },
       ],
     },
   ];
@@ -124,6 +124,7 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
                         <Link
                           key={sub.href}
                           href={sub.href}
+                          {...(sub.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                           onClick={() => setOpenDropdown(null)}
                           className={`block px-4 py-2 text-sm transition-colors ${
                             isActive(sub.href)
@@ -203,6 +204,7 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
                     <Link
                       key={sub.href}
                       href={sub.href}
+                      {...(sub.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                       onClick={() => setMenuOpen(false)}
                       className={`block px-6 py-2 rounded-md text-sm font-medium ${
                         isActive(sub.href)

@@ -9,6 +9,7 @@
     "about": "About",
     "emi_community": "EMI Community",
     "peer_observation": "Peer Observation",
+    "instructor": "Instructor",
     "course": "Course",
     "syllabus": "Syllabus",
     "teaching_log": "Materials & Log",
@@ -16,11 +17,10 @@
     "emi_teaching": "EMI Teaching",
     "teaching_methods": "Teaching Methods",
     "platforms_tools": "Platforms & Tools",
-    "emi_resources": "EMI Resources",
     "observation": "Observation",
     "schedule": "Schedule",
     "guidelines": "Observation Guide",
-    "feedback": "Feedback"
+    "learning_outcomes": "Learning Outcomes"
   },
   "home": {
     "hero_title": "Course Peer Observation",
@@ -210,22 +210,6 @@
       }
     ]
   },
-  "feedback": {
-    "title": "Observation Feedback",
-    "description": "Use this form to submit your observation feedback. All responses are confidential and used solely for professional development.",
-    "form": {
-      "observer_name": "Observer Name",
-      "observation_date": "Observation Date",
-      "course_topic": "Course Topic",
-      "strengths": "Strengths Observed",
-      "suggestions": "Suggestions for Improvement",
-      "additional": "Additional Comments",
-      "submit": "Submit Feedback",
-      "placeholder_strengths": "What aspects of the teaching were particularly effective?",
-      "placeholder_suggestions": "What suggestions would you offer for improvement?",
-      "placeholder_additional": "Any other comments or observations..."
-    }
-  },
   "syllabus": {
     "title": "Syllabus",
     "plan_name": "Co-Creating a Cloud Ecosystem: Participatory Learning with AWS in Introduction to Computer Science",
@@ -309,7 +293,12 @@
       { "week": "3", "title": "Computer Organization and Cloud Computing", "file": "/docs/PUCS03-Computer Organization and Cloud Computing.pdf" },
       { "week": "4", "title": "Computer Networks", "file": "/docs/PUCS04-Computer networks.pdf" },
       { "week": "5", "title": "OS and Cloud Computing", "file": "/docs/PUCS05-OS and Cloud Computing.pdf" },
-      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" }
+      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "10", "title": "AWS / Padlet / Flipped Classroom 2", "file": "/docs/PUCS10-AWS_Padlet_FlipClassroom2.pdf" },
+      { "week": "11", "title": "AWS / Padlet / Flipped Classroom 3", "file": "/docs/PUCS11-AWS_Padlet_FlipClassroom3.pdf" },
+      { "week": "12", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS12-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "13", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS13-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "14", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS14-AWS_Padlet_FlipClassroom.pdf" }
     ]
   },
   "student_profile": {
@@ -413,10 +402,17 @@
       }
     ]
   },
-  "emi_resources": {
-    "title": "EMI Resources",
-    "description": "Reference resources and learning materials related to EMI teaching.",
-    "coming_soon": "Content coming soon."
+  "learning_outcomes": {
+    "title": "Learning Outcomes",
+    "description": "Student learning outcomes collected via Padlet for each AWS Academy module.",
+    "padlets": [
+      { "module": "Module 5", "title": "Networking and Content Delivery", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-5-networking-and-content-delivery-mn4ddf4v34fa9kd8" },
+      { "module": "Module 6", "title": "Compute", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-6-compute-s5m8d9ckqho171h3" },
+      { "module": "Module 7", "title": "Storage", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-7-storage-32cenka6ubwvrlpp" },
+      { "module": "Module 8", "title": "Databases", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-8-databases-hwcj8jl6dofypo1e" },
+      { "module": "Module 9", "title": "Cloud Architecture", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-9-cloud-architecture-a3gz5wgk5nfd3mtx" },
+      { "module": "Module 10", "title": "Auto Scaling and Monitoring", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-10-auto-scaling-and-monitoring-8s3b6bakrcgm3gva" }
+    ]
   },
   "footer": {
     "copyright": "Course Peer Observation Program",

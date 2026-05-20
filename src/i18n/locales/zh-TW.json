@@ -9,6 +9,7 @@
     "about": "關於計畫",
     "emi_community": "EMI社群計畫",
     "peer_observation": "同儕觀課計畫",
+    "instructor": "授課教師",
     "course": "關於課程",
     "syllabus": "教學計畫",
     "teaching_log": "教材和記錄",
@@ -16,11 +17,10 @@
     "emi_teaching": "EMI教學",
     "teaching_methods": "教學方法",
     "platforms_tools": "平台與工具",
-    "emi_resources": "相關EMI資源",
     "observation": "觀課資訊",
     "schedule": "觀課時程",
     "guidelines": "觀課指引",
-    "feedback": "觀課回饋"
+    "learning_outcomes": "學習成果"
   },
   "home": {
     "hero_title": "課程同儕觀課",
@@ -210,22 +210,6 @@
       }
     ]
   },
-  "feedback": {
-    "title": "觀課回饋",
-    "description": "請使用此表單提交您的觀課回饋。所有回覆均為保密，僅用於專業發展。",
-    "form": {
-      "observer_name": "觀課者姓名",
-      "observation_date": "觀課日期",
-      "course_topic": "課程主題",
-      "strengths": "觀察到的優勢",
-      "suggestions": "改進建議",
-      "additional": "其他意見",
-      "submit": "提交回饋",
-      "placeholder_strengths": "教學中哪些方面特別有效？",
-      "placeholder_suggestions": "您有什麼改進建議？",
-      "placeholder_additional": "其他意見或觀察..."
-    }
-  },
   "syllabus": {
     "title": "教學計畫",
     "plan_name": "共創雲端生態系：應用 AWS 平台進行參與式學習於計算機概論之研究",
@@ -309,7 +293,12 @@
       { "week": "3", "title": "Computer Organization and Cloud Computing", "file": "/docs/PUCS03-Computer Organization and Cloud Computing.pdf" },
       { "week": "4", "title": "Computer Networks", "file": "/docs/PUCS04-Computer networks.pdf" },
       { "week": "5", "title": "OS and Cloud Computing", "file": "/docs/PUCS05-OS and Cloud Computing.pdf" },
-      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" }
+      { "week": "9", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS09-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "10", "title": "AWS / Padlet / Flipped Classroom 2", "file": "/docs/PUCS10-AWS_Padlet_FlipClassroom2.pdf" },
+      { "week": "11", "title": "AWS / Padlet / Flipped Classroom 3", "file": "/docs/PUCS11-AWS_Padlet_FlipClassroom3.pdf" },
+      { "week": "12", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS12-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "13", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS13-AWS_Padlet_FlipClassroom.pdf" },
+      { "week": "14", "title": "AWS / Padlet / Flipped Classroom", "file": "/docs/PUCS14-AWS_Padlet_FlipClassroom.pdf" }
     ]
   },
   "student_profile": {
@@ -413,10 +402,17 @@
       }
     ]
   },
-  "emi_resources": {
-    "title": "相關EMI資源",
-    "description": "EMI教學相關的參考資源與學習材料。",
-    "coming_soon": "內容即將上線，敬請期待。"
+  "learning_outcomes": {
+    "title": "學習成果",
+    "description": "透過 Padlet 收集的各 AWS Academy 模組學生學習成果。",
+    "padlets": [
+      { "module": "Module 5", "title": "Networking and Content Delivery", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-5-networking-and-content-delivery-mn4ddf4v34fa9kd8" },
+      { "module": "Module 6", "title": "Compute", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-6-compute-s5m8d9ckqho171h3" },
+      { "module": "Module 7", "title": "Storage", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-7-storage-32cenka6ubwvrlpp" },
+      { "module": "Module 8", "title": "Databases", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-8-databases-hwcj8jl6dofypo1e" },
+      { "module": "Module 9", "title": "Cloud Architecture", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-9-cloud-architecture-a3gz5wgk5nfd3mtx" },
+      { "module": "Module 10", "title": "Auto Scaling and Monitoring", "url": "https://padlet.com/htchutaiwan/aws-acfcourse-module-10-auto-scaling-and-monitoring-8s3b6bakrcgm3gva" }
+    ]
   },
   "footer": {
     "copyright": "課程同儕觀課計畫",

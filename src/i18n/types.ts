@@ -9,6 +9,7 @@ export interface Dictionary {
     about: string;
     emi_community: string;
     peer_observation: string;
+    instructor: string;
     course: string;
     syllabus: string;
     teaching_log: string;
@@ -16,11 +17,10 @@ export interface Dictionary {
     emi_teaching: string;
     teaching_methods: string;
     platforms_tools: string;
-    emi_resources: string;
     observation: string;
     schedule: string;
     guidelines: string;
-    feedback: string;
+    learning_outcomes: string;
   };
   home: {
     hero_title: string;
@@ -95,22 +95,6 @@ export interface Dictionary {
         description: string;
       }>;
     }>;
-  };
-  feedback: {
-    title: string;
-    description: string;
-    form: {
-      observer_name: string;
-      observation_date: string;
-      course_topic: string;
-      strengths: string;
-      suggestions: string;
-      additional: string;
-      submit: string;
-      placeholder_strengths: string;
-      placeholder_suggestions: string;
-      placeholder_additional: string;
-    };
   };
   syllabus: {
     title: string;
@@ -199,10 +183,14 @@ export interface Dictionary {
       description: string;
     }>;
   };
-  emi_resources: {
+  learning_outcomes: {
     title: string;
     description: string;
-    coming_soon: string;
+    padlets: Array<{
+      module: string;
+      title: string;
+      url: string;
+    }>;
   };
   footer: {
     copyright: string;
