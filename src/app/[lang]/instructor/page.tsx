@@ -15,13 +15,20 @@ export default async function InstructorPage({
 
       <div className="bg-white border border-slate-200 rounded-xl overflow-hidden">
         {/* Name & affiliation */}
-        <div className="bg-slate-800 text-white px-6 py-8">
-          <h2 className="text-2xl font-bold">{d.name_zh}</h2>
-          <p className="text-slate-300 mt-1">{d.name_en}</p>
-          <p className="text-blue-300 mt-3 font-medium">{d.position}</p>
-          <p className="text-slate-400 text-sm">
-            {d.department}, {d.university}
-          </p>
+        <div className="bg-slate-800 text-white px-6 py-8 flex flex-col sm:flex-row items-center gap-6">
+          <img
+            src="/img/htchu.jpg"
+            alt={d.name_zh}
+            className="w-28 h-28 rounded-full object-cover border-4 border-slate-600 shrink-0"
+          />
+          <div className="text-center sm:text-left">
+            <h2 className="text-2xl font-bold">{d.name_zh}</h2>
+            <p className="text-slate-300 mt-1">{d.name_en}</p>
+            <p className="text-blue-300 mt-3 font-medium">{d.position}</p>
+            <p className="text-slate-400 text-sm">
+              {d.department}, {d.university}
+            </p>
+          </div>
         </div>
 
         <div className="p-6 space-y-6">
