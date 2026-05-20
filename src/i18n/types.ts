@@ -96,6 +96,23 @@ export interface Dictionary {
       }>;
     }>;
   };
+  instructor: {
+    title: string;
+    name_zh: string;
+    name_en: string;
+    position: string;
+    department: string;
+    university: string;
+    education_title: string;
+    education: string;
+    expertise_title: string;
+    expertise: string[];
+    contact_title: string;
+    email: string;
+    phone: string;
+    links_title: string;
+    links: Array<{ label: string; url: string }>;
+  };
   syllabus: {
     title: string;
     plan_name: string;

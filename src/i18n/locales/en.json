@@ -210,6 +210,33 @@
       }
     ]
   },
+  "instructor": {
+    "title": "Instructor",
+    "name_zh": "朱學亭",
+    "name_en": "Hsueh-Ting Chu",
+    "position": "Director, International Informatics Bachelor's Program",
+    "department": "Department of Computer Science and Information Engineering",
+    "university": "Providence University",
+    "education_title": "Education",
+    "education": "Ph.D.",
+    "expertise_title": "Research Expertise",
+    "expertise": [
+      "Cloud Computing",
+      "Artificial Intelligence",
+      "Big Data Analysis",
+      "Smart Healthcare",
+      "Digital Learning",
+      "Bioinformatics"
+    ],
+    "contact_title": "Contact",
+    "email": "htchu2@pu.edu.tw",
+    "phone": "04-26328001 #18216",
+    "links_title": "Links",
+    "links": [
+      { "label": "AIPLab", "url": "https://www.aiplab.tw/people" },
+      { "label": "Faculty Page", "url": "https://csie.pu.edu.tw/p/800-1110-113215.php?Lang=zh-tw" }
+    ]
+  },
   "syllabus": {
     "title": "Syllabus",
     "plan_name": "Co-Creating a Cloud Ecosystem: Participatory Learning with AWS in Introduction to Computer Science",

@@ -41,7 +41,7 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
       items: [
         { href: `/${lang}/emi-community`, label: dict.nav.emi_community },
         { href: `/${lang}/about`, label: dict.nav.peer_observation },
-        { href: "https://www.aiplab.tw/people", label: dict.nav.instructor },
+        { href: `/${lang}/instructor`, label: dict.nav.instructor },
       ],
     },
     {

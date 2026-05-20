@@ -210,6 +210,33 @@
       }
     ]
   },
+  "instructor": {
+    "title": "授課教師",
+    "name_zh": "朱學亭",
+    "name_en": "Hsueh-Ting Chu",
+    "position": "國際資訊學士學程主任",
+    "department": "資訊工程學系",
+    "university": "靜宜大學",
+    "education_title": "學歷",
+    "education": "博士",
+    "expertise_title": "研究專長",
+    "expertise": [
+      "雲端計算",
+      "人工智慧",
+      "大數據分析",
+      "智慧醫療",
+      "數位學習",
+      "生物資訊"
+    ],
+    "contact_title": "聯絡資訊",
+    "email": "htchu2@pu.edu.tw",
+    "phone": "04-26328001 #18216",
+    "links_title": "相關連結",
+    "links": [
+      { "label": "AIPLab 實驗室", "url": "https://www.aiplab.tw/people" },
+      { "label": "教師網頁", "url": "https://csie.pu.edu.tw/p/800-1110-113215.php?Lang=zh-tw" }
+    ]
+  },
   "syllabus": {
     "title": "教學計畫",
     "plan_name": "共創雲端生態系：應用 AWS 平台進行參與式學習於計算機概論之研究",
