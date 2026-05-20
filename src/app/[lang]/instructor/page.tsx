@@ -19,7 +19,7 @@ export default async function InstructorPage({
           <img
             src="/img/htchu.jpg"
             alt={d.name_zh}
-            className="w-28 h-28 rounded-full object-cover border-4 border-slate-600 shrink-0"
+            className="w-40 h-40 rounded-full object-cover border-4 border-slate-600 shrink-0"
           />
           <div className="text-center sm:text-left">
             <h2 className="text-2xl font-bold">{d.name_zh}</h2>
