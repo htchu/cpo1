@@ -150,7 +150,16 @@ export interface Dictionary {
   student_profile: {
     title: string;
     description: string;
-    coming_soon: string;
+    total_students: string;
+    local_students: string;
+    international_students: string;
+    male_students: string;
+    female_students: string;
+    total_count: number;
+    local_count: number;
+    international_count: number;
+    male_count: number;
+    female_count: number;
   };
   teaching_methods: {
     title: string;

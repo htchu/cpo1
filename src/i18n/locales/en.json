@@ -304,7 +304,16 @@
   "student_profile": {
     "title": "Student Profile",
     "description": "Background analysis and learning overview of enrolled students.",
-    "coming_soon": "Content coming soon."
+    "total_students": "Total Students",
+    "local_students": "Local Student",
+    "international_students": "International Students",
+    "male_students": "Male",
+    "female_students": "Female",
+    "total_count": 25,
+    "local_count": 1,
+    "international_count": 24,
+    "male_count": 21,
+    "female_count": 4
   },
   "teaching_methods": {
     "title": "Teaching Methods",

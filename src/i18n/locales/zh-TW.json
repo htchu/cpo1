@@ -304,7 +304,16 @@
   "student_profile": {
     "title": "學生組成",
     "description": "修課學生的背景分析與學習概況。",
-    "coming_soon": "內容即將上線，敬請期待。"
+    "total_students": "學生總數",
+    "local_students": "本地生",
+    "international_students": "國際生",
+    "male_students": "男生",
+    "female_students": "女生",
+    "total_count": 25,
+    "local_count": 1,
+    "international_count": 24,
+    "male_count": 21,
+    "female_count": 4
   },
   "teaching_methods": {
     "title": "教學方法",
