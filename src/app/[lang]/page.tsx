@@ -19,46 +19,44 @@ export default async function HomePage({
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-slate-700 via-slate-800 to-blue-900 text-white py-20 lg:py-28">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-3">
-            {dict.home.hero_title}
-          </h1>
-          <p className="text-xl lg:text-2xl text-blue-300 mb-6">
-            {dict.home.hero_subtitle}
-          </p>
-          <p className="text-lg text-slate-300 max-w-2xl mx-auto mb-10">
-            {dict.home.hero_description}
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href={`/${lang}/schedule`}
-              className="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-lg font-medium transition-colors"
-            >
-              {dict.home.cta_schedule}
-            </Link>
-            <Link
-              href={`/${lang}/about`}
-              className="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-lg font-medium transition-colors"
-            >
-              {dict.home.cta_about}
-            </Link>
+      <section className="bg-gradient-to-br from-slate-700 via-slate-800 to-blue-900 text-white py-16 lg:py-24">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+          <div className="flex-1 text-center lg:text-left">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-3">
+              {dict.home.hero_title}
+            </h1>
+            <p className="text-xl lg:text-2xl text-blue-300 mb-6">
+              {dict.home.hero_subtitle}
+            </p>
+            <p className="text-lg text-slate-300 max-w-2xl mb-10">
+              {dict.home.hero_description}
+            </p>
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+              <Link
+                href={`/${lang}/schedule`}
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-lg font-medium transition-colors"
+              >
+                {dict.home.cta_schedule}
+              </Link>
+              <Link
+                href={`/${lang}/about`}
+                className="px-6 py-3 bg-slate-600 hover:bg-slate-500 rounded-lg font-medium transition-colors"
+              >
+                {dict.home.cta_about}
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
-
-      {/* Main theme image */}
-      <section className="bg-white py-12">
-        <div className="px-4 flex justify-center">
-          <Image
-            src="/main_theme.jpg"
-            alt={dict.site.title}
-            width={800}
-            height={450}
-            priority
-            className="w-full max-w-[800px] h-auto rounded-xl shadow-lg"
-            sizes="(max-width: 800px) 100vw, 800px"
-          />
+          <div className="flex-1 flex justify-center">
+            <Image
+              src="/main_theme.jpg"
+              alt={dict.site.title}
+              width={560}
+              height={315}
+              priority
+              className="w-full max-w-[560px] h-auto rounded-xl shadow-2xl"
+              sizes="(max-width: 1024px) 100vw, 560px"
+            />
+          </div>
         </div>
       </section>
 
